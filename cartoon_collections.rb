@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.map!{|call| call.length >= 4}
-  if calls.include?(true) do
+  if calls.include?(true)
     return true
   else 
     return false 
