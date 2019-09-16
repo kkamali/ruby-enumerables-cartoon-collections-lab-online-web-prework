@@ -7,7 +7,6 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  puts calls
   calls.map!{|call| call.length > 4}
   if calls.include?(true)
     return true
@@ -17,6 +16,6 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(snacks)
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
