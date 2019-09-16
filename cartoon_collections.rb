@@ -16,5 +16,11 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(food)
-  
+  food.each {
+    |food|
+    if food == "cheddar" || food == "gouda" || food == "camembert"
+      return food
+    end
+  }
+  return nil 
 end
