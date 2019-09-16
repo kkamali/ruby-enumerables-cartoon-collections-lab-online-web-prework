@@ -8,6 +8,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.select{|calls| calls.length >= 4}
+  puts calls
   if calls.length > 0 
     return true 
   else
